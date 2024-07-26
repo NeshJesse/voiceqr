@@ -1,76 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Your Service Name - Immortalize Voices with QR Codes</title>
-        
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Preserve voices forever with Your Service Name. Turn photos into talking memories using QR codes. Capture laughs, wisdom, and love for future generations.">
-        <meta name="keywords" content="voice preservation, QR code, audio memories, family keepsakes, voice immortalization">
-        <meta name="author" content="Your Company Name">
-        <meta name="robots" content="index, follow">
-        
-        <!-- Canonical URL -->
-        <link rel="canonical" href="https://www.yourservicename.com/">
-        
-        <!-- Open Graph Tags -->
-        <meta property="og:title" content="Your Service Name - Immortalize Voices with QR Codes">
-        <meta property="og:description" content="Turn your photos into talking memories. Preserve voices of loved ones with our innovative QR code technology.">
-        <meta property="og:image" content="https://www.yourservicename.com/images/og-image.jpg">
-        <meta property="og:url" content="https://www.yourservicename.com/">
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Your Service Name">
-        
-        <!-- Twitter Card Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Your Service Name - Immortalize Voices with QR Codes">
-        <meta name="twitter:description" content="Turn your photos into talking memories. Preserve voices of loved ones with our innovative QR code technology.">
-        <meta name="twitter:image" content="https://www.yourservicename.com/images/twitter-card-image.jpg">
-        
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="/favicon.png">
-        
-        <!-- Apple Touch Icon -->
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        
-        <!-- Stylesheets -->
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-        
-        <!-- Structured Data -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Your Service Name",
-          "url": "https://www.yourservicename.com/",
-          "description": "Preserve voices forever with QR codes linked to audio messages.",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.yourservicename.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        }
-        </script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Service Name - Immortalize Your Voice in Memories</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
 <body class="bg-gray-100 text-gray-800 font-sans">
-    <header class="bg-white shadow-md">
-        <nav class="fixed w-full h-[20em] container mx-auto px-6 py-3">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
             <div class="flex justify-between items-center">
-                <div class="text-xl font-bold text-gray-800">VoiceQR</div>
-                <div id="menu" class="hidden md:flex space-x-4">
-                    <a href="#features" class="text-gray-600 hover:text-gray-800">Features</a>
-                    <a href="#how-it-works" class="text-gray-600 hover:text-gray-800">How It Works</a>
-                    <a href="#use-cases" class="text-gray-600 hover:text-gray-800">Use Cases</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+                <div>
+                    <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-indigo-600" href="#">Your Service Name</a>
                 </div>
-                <button id="menu-toggle" class="md:hidden">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                </button>
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-800 hover:text-indigo-600 focus:outline-none focus:text-indigo-600" aria-label="toggle menu">
+                        <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                            <path fill-rule="evenodd" d="M4 5h16M4 11h16M4 17h16" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-        </nav>
-    </header>
-
+            <div class="hidden md:flex md:items-center">
+                <a class="text-gray-800 mt-2 md:mt-0 md:ml-4 hover:text-indigo-600" href="#">Home</a>
+                <a class="text-gray-800 mt-2 md:mt-0 md:ml-4 hover:text-indigo-600" href="#">Features</a>
+                <a class="text-gray-800 mt-2 md:mt-0 md:ml-4 hover:text-indigo-600" href="#">Pricing</a>
+                <a class="text-gray-800 mt-2 md:mt-0 md:ml-4 hover:text-indigo-600" href="#">About</a>
+                <a class="text-gray-800 mt-2 md:mt-0 md:ml-4 hover:text-indigo-600" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
     <!-- Hero Section -->
     <section class="bg-white py-16">
         <div class="container mx-auto px-6 text-center">
@@ -101,7 +61,7 @@
                         <p class="text-lg">Record your voice or capture the dulcet tones of your loved ones. Yes, even your dog's philosophic woofs count!</p>
                     </div>
                     <div class="md:w-1/2">
-                        <img src="public/screen.png" alt="Whispering Sweet Nothings" class="rounded-lg shadow-lg">
+                        <img src="public/screen5.png" alt="Whispering Sweet Nothings" class="rounded-lg shadow-lg">
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row items-center md:justify-between">
@@ -110,7 +70,7 @@
                         <p class="text-lg">Our tech wizards transform your audio into a QR code faster than you can say "Expelliarmus!"</p>
                     </div>
                     <div class="md:w-1/2">
-                        <img src="public/screen2.png" alt="QR Code Magic" class="rounded-lg shadow-lg">
+                        <img src="public/screen4.png" alt="QR Code Magic" class="rounded-lg shadow-lg">
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row items-center md:justify-between">
@@ -119,7 +79,7 @@
                         <p class="text-lg">Add the QR code to your photo, and watch as it transforms into a chatty time capsule!</p>
                     </div>
                     <div class="md:w-1/2">
-                        <img src="public/screen3.png" alt="Talking Photos" class="rounded-lg shadow-lg">
+                        <img src="public/merge.png" alt="Talking Photos" class="rounded-lg shadow-lg">
                     </div>
                 </div>
             </div>
